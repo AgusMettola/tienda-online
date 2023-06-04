@@ -152,11 +152,11 @@ header{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 #footer .footer-top .footer-info {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -216,9 +216,17 @@ header{
     height: 36px;
     transition: 0.3s;
 }
+.containerF{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5rem;
+}
 
 
-/* Esta seria la seccion de artista */
+/* seccion de artista */
 #galeria .col-lg-4{
     margin: 0 !important;
     padding: 25px;
@@ -239,3 +247,47 @@ header{
     font-family: "Montserrat", sans-serif;
     padding-top: 10px;
 }
+
+
+/* Seccion Coleccion*/
+.title h2{
+    font-family: "Montserrat", sans-serif;
+    color: #5c5155;
+}
+.title h2::before{
+    position: absolute;
+    content: "";
+    width:4px ;
+    height: 50px;
+    background-color: #D88CD2;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.active-filter-btn{
+    background-color: #D88CD2 !important;
+    color: #fff !important;
+    border-radius:10px ;
+}
+
+.text-transparent{
+    color:#D88CD2 !important ;
+}
+
+
+.imagen-coleccion{
+ width: 100%;
+ height: 400px;
+}
+
+/* Seccion LogIn*/
+.fondo{
+    background-color: #fae6ed;
+}
+.bg{
+    background-image: url(/img/foto-login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
