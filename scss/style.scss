@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #fae6ed;
+    padding: 10px;
+  }
+  
+  .navbar {
+    .collapse.navbar-collapse {
+      flex-grow: inherit;
+    }
+  }
+  
+  .logo1 {
+    img {
+      height: 100px;
+    }
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    padding-right: 60px;
+    color: #5c5155;
+  
+    &:hover {
+      color: #762074;
+    }
+  }
